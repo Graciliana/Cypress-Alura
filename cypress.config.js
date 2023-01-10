@@ -5,6 +5,7 @@ const {
 } = require('cypress-mochawesome-reporter/lib')
 
 module.exports = defineConfig({
+  projectId: 'wt53se',
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     charts: true,
